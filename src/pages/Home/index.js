@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HomeTab from "../../components/HomeTab";
-import ParralaxDiv from "../../components/ParallaxDiv";
+import ParallaxDiv from "../../components/ParallaxDiv";
+import PortfolioTab from "../../components/PortfolioTab";
 
 function Home() {
   const [appState, setAppState] = useState("home");
@@ -8,7 +9,9 @@ function Home() {
   return (
     <div>
       <HomeTab divID="home" />
-      <ParralaxDiv backgroundID={1} />
+      <ParallaxDiv backgroundID={0} />
+      <PortfolioTab />
+      <ParallaxDiv backgroundID={1} />
     </div>
   );
 }
