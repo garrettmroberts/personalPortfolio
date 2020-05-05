@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioCard from "../PortfolioCard";
 
-function PortfolioTab() {
+function PortfolioTab({ divID }) {
 
   const portfolioData = [{
     name: "Novel-19",
@@ -23,7 +23,7 @@ function PortfolioTab() {
   }];
 
   return (
-    <div className="container-fluid bg-light py-3" id={"portfolio"}>
+    <div className="container-fluid bg-light py-3" id={divID}>
       <div className="row d-flex flex-column border">
         <h1 className="text-center text-dark">Portfolio</h1>
         <h2 className="text-center text-dark">Here are some things I've been working on.</h2>
@@ -31,7 +31,7 @@ function PortfolioTab() {
       <div className="container-fluid">
         <div className="row d-flex">
           {portfolioData.map(object => {
-            return <PortfolioCard assets={object} />
+            return <PortfolioCard assets={object} key={object.name + "Card"} />
           })}
         </div>
       </div>
