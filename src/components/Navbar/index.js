@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+// import { Link } from "react-router-dom";
 
 function Navbar({ navlinks }) {
   return(
@@ -18,7 +19,9 @@ function Navbar({ navlinks }) {
           {navlinks.map(navlink => {
             return (
               <li className="nav-item px-3" key={navlink}>
-                <Link className="nav-link" to={`/#${navlink}`}>{navlink.charAt(0).toUpperCase() + navlink.slice(1)}</Link>
+                <Link className="nav-link" to={`/#${navlink}`} smooth="true">
+                  {navlink.charAt(0).toUpperCase() + navlink.slice(1)}
+                </Link>
               </li>
             )
           })}

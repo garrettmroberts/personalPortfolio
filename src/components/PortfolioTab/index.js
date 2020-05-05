@@ -23,7 +23,7 @@ function PortfolioTab() {
   }];
 
   return (
-    <div className="container-fluid bg-light py-3" id="portfolio">
+    <div className="container-fluid bg-light py-3" id={"portfolio"}>
       <div className="row d-flex flex-column border">
         <h1 className="text-center text-dark">Portfolio</h1>
         <h2 className="text-center text-dark">Here are some things I've been working on.</h2>
