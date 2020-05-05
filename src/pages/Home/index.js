@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import HomeTab from "../../components/HomeTab";
-import Parralax from "../../components/ParallaxDiv";
+import ParralaxDiv from "../../components/ParallaxDiv";
 
 function Home() {
   const [appState, setAppState] = useState("home");
@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       <HomeTab divID="home" />
-      <Parralax backgroundID={0} />
+      <ParralaxDiv backgroundID={1} />
     </div>
   );
 }

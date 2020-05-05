@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personalPortfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/personalPortfolio/static/js/main.cec56f78.chunk.js",
+    "main.js.map": "/personalPortfolio/static/js/main.cec56f78.chunk.js.map",
+    "runtime-main.js": "/personalPortfolio/static/js/runtime-main.e559bfa3.js",
+    "runtime-main.js.map": "/personalPortfolio/static/js/runtime-main.e559bfa3.js.map",
+    "static/js/2.7ccddf69.chunk.js": "/personalPortfolio/static/js/2.7ccddf69.chunk.js",
+    "static/js/2.7ccddf69.chunk.js.map": "/personalPortfolio/static/js/2.7ccddf69.chunk.js.map",
+    "index.html": "/personalPortfolio/index.html",
+    "precache-manifest.a60705b6983f32faee5bab84ae5b3c08.js": "/personalPortfolio/precache-manifest.a60705b6983f32faee5bab84ae5b3c08.js",
+    "service-worker.js": "/personalPortfolio/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/personalPortfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.7ccddf69.chunk.js.LICENSE.txt": "/personalPortfolio/static/js/2.7ccddf69.chunk.js.LICENSE.txt",
+    "static/media/parallax0.jpg": "/personalPortfolio/static/media/parallax0.b08a2096.jpg",
+    "static/media/parallax1.jpg": "/personalPortfolio/static/media/parallax1.51269a38.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e559bfa3.js",
+    "static/js/2.7ccddf69.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.cec56f78.chunk.js"
+  ]
+}
