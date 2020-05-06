@@ -10,7 +10,7 @@ function App() {
       <div>
         <Navbar navlinks={["home", "portfolio", "contact"]} />
         <Route exact path={["/", "/about"]} component={Home} />
-        {/* <Redirect from="/personalPortfolio" to="/" /> */}
+        <Redirect from="/personalPortfolio" to="/" />
         <Footer />
       </div>
     </Router>
