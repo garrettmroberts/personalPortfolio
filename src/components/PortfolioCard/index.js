@@ -3,7 +3,7 @@ import "./style.css";
 import buildPath from "../../utils/buildPath";
 function PortfolioCard({ assets }) {
   return (
-  <div className="col-md-4">
+  <div className="col-lg-4">
     <article className="card">
       <img className="card-img-top" src={buildPath(assets.image)} alt="{assets.name} screenshot" />
       <div className="card-body">

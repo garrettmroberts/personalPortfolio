@@ -3,11 +3,24 @@ import PortfolioCard from "../PortfolioCard";
 
 function PortfolioTab({ divID }) {
 
-  const portfolioData = [{
+  const portfolioData = [
+  {
+    name: "Workout Planner",
+    link: "https://github.com/garrettmroberts/workout-planner",
+    image: "/assets/images/workoutPlannerScreenshot.png",
+    desc: "Built with one partner.  This app builds a workout plan for the next two months based on user goals and available equipment.  This app runs on a full MERN stack."
+  },
+  {
     name: "Novel-19",
     link: "https://github.com/garrettmroberts/novel-19",
     image: "/assets/images/novel19Screenshot.png",
-    desc: "This project was built in a small group of three.  It allows for multiple user instances, where each user can mark locations they have visited.  If a user tests positive for Covid-19, they can update their status and all of their locations are marked on a public map.  The goal is to make a safer way for people to find out if they'vecome ito contact with potentially infected persons within the last two weeks."
+    desc: "This project was built in a small group of three.  It allows for multiple user instances, where each user can mark locations they have visited.  If a user tests positive for Covid-19, they can update their status and all of their locations are marked on a public map.  The goal is to make a safer way for people to find out if they've come ito contact with potentially infected persons within the last two weeks."
+  },
+  {
+    name: "CLI Readme Generator",
+    link: "https://github.com/garrettmroberts/goodReadmeGenerator",
+    image: "/assets/images/cliReadmeGeneratorScreenshot.png",
+    desc: "This application is designed for users who need a quick and efficient way to make READMEs for their repositories.Once you have the application running, it will give you a series of prompts within the terminal. After answering all of these questions, a readme will be generated for your project based on the given input."
   },
   {
     name: "User Directory",
@@ -20,7 +33,9 @@ function PortfolioTab({ divID }) {
     link: "https://github.com/garrettmroberts/FreeCodeCamp-Projects/tree/master/markdownPreviewer",
     image: "/assets/images/markdownGeneratorScreenshot.png",
     desc: "A simple markown previewer.  Anything can be written into the input field, and the preview dynamically updates with that text parsed from markdown to html.  Good for making sure that a markdown file is visually appealing before pushing."
-  }];
+  }
+
+];
 
   return (
     <div className="container-fluid bg-light py-3" id={divID}>
@@ -35,51 +50,6 @@ function PortfolioTab({ divID }) {
           })}
         </div>
       </div>
-
-      {/* <div className="row">
-        <div className="col-lg-6  text-center">
-          <figure>
-            <a href="#">
-              <img src="https://via.placeholder.com/300x300" className="img-fluid my-3 w-50 img-thumbnail" />
-              <figcaption>
-                <h3 className="text-dark">Project 1</h3>
-              </figcaption>
-            </a>
-          </figure>
-        </div>
-        <div className="col-lg-6 text-center">
-          <figure>
-            <a href="#">
-              <img src="https://via.placeholder.com/300x300" className="img-fluid my-3 w-50 img-thumbnail" />
-              <figcaption>
-                <h3 className="text-dark">Project 2</h3>
-              </figcaption>
-            </a>
-          </figure>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-6 text-center">
-          <figure>
-            <a href="#">
-              <img src="https://via.placeholder.com/300x300" className="img-fluid my-3 w-50 img-thumbnail" />
-              <figcaption>
-                <h3 className="text-dark">Project 3</h3>
-              </figcaption>
-            </a>
-          </figure>
-        </div>
-        <div className="col-lg-6 text-center">
-          <figure>
-            <a href="#">
-              <img src="https://via.placeholder.com/300x300" className="img-fluid my-3 w-50 img-thumbnail" />
-              <figcaption>
-                <h3 className="text-dark">Project 4</h3>
-              </figcaption>
-            </a>
-          </figure>
-        </div>
-      </div> */}
     </div>
   )
 };
