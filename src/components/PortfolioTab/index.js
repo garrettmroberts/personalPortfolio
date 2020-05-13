@@ -23,7 +23,7 @@ function PortfolioTab({ divID }) {
     link: "https://github.com/garrettmroberts/user_directory",
     deployedLink: "https://user-directory5467.herokuapp.com/",
     image: "/assets/images/userDirectoryScreenshot.png",
-    desc: "This directory is built out of react components.  It can sort and filter any json file passe into it.  Because of it's modularity, any other json file can be fed to it, the table will populate dynamically, the sort filters work out of the box, and the filter functionality can work with minor tweaks."
+    desc: "This directory is built out of react components.  It can sort and filter any json file passed into it.  Because of it's modularity, any other json file can be fed to it, the table will populate dynamically, the sort filters work out of the box, and the filter functionality can work with minor tweaks."
   },
   // {
   //   name: "CLI Readme Generator",
