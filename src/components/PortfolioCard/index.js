@@ -11,7 +11,8 @@ function PortfolioCard({ assets }) {
         <p className="card-text">{assets.desc}</p>
       </div>
       <div className="card-footer">
-        <a href={assets.link} className="btn btn-primary btn-lg btn-block" rel="noopener noreferrer" target="_blank">See it here</a>
+        <a href={assets.link} className="btn btn-primary btn-block" rel="noopener noreferrer" target="_blank">Github Repo</a>
+          <a href={assets.deployedLink} className="btn btn-primary btn-block" rel="noopener noreferrer" target="_blank">Deployed App</a>
       </div>
     </article>
   </div>
